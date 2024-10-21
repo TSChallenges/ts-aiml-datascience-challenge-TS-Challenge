@@ -5,7 +5,7 @@ def load_data(filepath):
     """
     Load the dataset into a pandas DataFrame.
     """
-    df = pd.read_csv(filepath)
+    df = pd.read_csv(filepath1)
     return df
 
 def check_missing_values(df):
